@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lingkungan Sekolah Sehat</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="alam">
+
+<h2>🌿 Kualitas Lingkungan Sekolah Sehat</h2>
+
+<form>
+    <label>Nama:</label>
+    <input type="text" id="nama" readonly><br>
+
+    <label>Tanggal:</label>
+    <input type="date" id="tanggal" readonly><br>
+
+    <label>Aspirasi Lingkungan:</label>
+    <textarea id="aspirasi"></textarea><br>
+
+    <label>Motivasi Menjaga Lingkungan:</label>
+    <textarea id="motivasi"></textarea><br>
+
+    <label>Upload Foto Lingkungan:</label>
+    <input type="file" id="foto" accept="image/*"><br>
+
+    <img id="preview" width="200"><br>
+
+    <button type="button" onclick="simpan()">Simpan</button>
+</form>
+
+<script src="js/script.js"></script>
+</body>
+</html>
